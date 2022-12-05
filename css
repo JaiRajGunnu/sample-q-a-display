@@ -1,0 +1,65 @@
+<style>
+
+   .quesn {
+    filter: brightness(1.10) contrast(1.05);
+     border-radius:10px;
+  }
+
+  .Night .quesn {
+    filter: invert(1);
+  }
+  
+  
+  .preButton {
+    margin: 10px 5px;
+    height: 30px;
+    padding: 3px 06px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0056c7;
+    transition: all 0.3s ease;
+    background: #0056c7;
+    color: #fff;
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    transition: transform .2s;
+  }
+  
+  .post-body blockquote {
+    background: linear-gradient(65deg,#960000,#0008ff) !important;
+    margin: 0;
+    color: #333;
+    font-weight: 400;
+    position: relative;
+    border: 3px solid rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+  @media screen and (max-width: 768px){
+    .hero-welcome-text {
+    font-size: 23.5px !important;
+    margin-left: 0px !important;
+    background-size: 100% auto !important;
+    animation: textclip 1.5s linear infinite !important;
+    }
+  
+  .quesn {
+     border-radius:0px; }
+  }
+
+
+/** Header Logo for both themes **/ 
+#header img {   
+content:url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFkC6KnbCh7r18W1iQP_E07xp_7iEU5DiRtP-aQkO4QKDWGidZ7Iv6GqBwy28dS2XvATm5zR76DKsbb632VhD1E9ILRvrrcFPM0NLcAOabpQTOKee53YxejnZtkxwU71IkewIjAU3pdx8uzB5R3t5fevgr1V59anC5AThl9sen6vyc1Di8MntG3gMa_g/s16000/CSI%20B.png"); 
+}
+  
+.Night #header img { 
+content:url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFcoUJ1SjtbdtU-yrBY2g_EJfoRkTE47iXAvsd4bM9ipnBpYGlklpF6k3cuubA5TAb9kELE5-PNwzarNdStzxqPsS2zgJus3tQoUdlUt2VrSbmx8sPVmGyc-F11AnoqolXR0YyoRo4pKU-7FaNCFgkejN_E0_ZXdITj5BEl3P2YflOBYLLQR6RVQdDmA/s16000/CSI%20W.png");
+
+}  
+
+
+</style>
